@@ -1,0 +1,35 @@
+@import '../../common_scss/newCommonFile';
+
+.mainDiv{
+    background-color: $dark_bg;
+    .second{
+        background-color: $light_bg;
+        padding: $padding;
+        p{
+            @include common;
+
+            @include border(2px,solid);
+
+            border: 1px solid $text_dark;
+            margin-top: 30px;
+            &:hover{
+                background-color: $dark_bg;
+                color: $text_light;
+            }
+        }
+        h1{
+            @include common;
+        }
+        h3{
+            @include common;
+            @include border(2px,dashed);
+        }
+    }
+}
+
+.third{
+    color: $text_light;
+    padding: $padding;
+    font-family: $font2;
+    font-size: 30px;
+}

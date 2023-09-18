@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Josefin+Sans:wght@400;500;600&display=swap');
+
+$dark_bg: #2f1b3d;
+$light_bg: #b9d084;
+
+$text_dark: #000;
+$text_light: #ffb0e4;
+
+$padding: 50px 30px;
+$font1: 'Josefin Sans', sans-serif;
+$font2: 'Anton', sans-serif;
+
+@mixin common{
+    color: $text_dark;
+    font-family: $font1;
+}
+
+@mixin border($bwidth, $btype){
+    border: $bwidth $btype $text_dark;
+}

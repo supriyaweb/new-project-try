@@ -1,0 +1,7 @@
+full form-
+sass- syntactically awesome stylesheet
+
+It is an extension to css basically it is css pre-processor.
+It reduces repetation of codes therefore saves time and it supports css properties as well.
+
+Browser does not support scss, that will be coverted to css for browser.
